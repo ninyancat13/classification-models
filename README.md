@@ -2,8 +2,8 @@
 
 ## 1.1 Major Findings
 ### 1.11 Data Preparation
-o Att14 and att17 are irrelevant because whether they are included in the analysis or not will not make a difference to the outcome.
-o Att3 and att9 are categorical attributes with very few missing values so these missing values were imputed by using the mode. Att25 and att28 however are numerical with a few missing values so these were imputed using the mean. Att13 and att19 had a very large number of missing values so these attributes were removed.
+o Att14 and att17 are irrelevant because whether they are included in the analysis or not will not make a difference to the outcome.\
+o Att3 and att9 are categorical attributes with very few missing values so these missing values were imputed by using the mode. Att25 and att28 however are numerical with a few missing values so these were imputed using the mean. Att13 and att19 had a very large number of missing values so these attributes were removed.\
 o Att8 and att24 are duplicate columns so att24 was removed as this would be redundant information for the classification. There were no duplicate rows.
 o Att1 to att12 which had alphabetical labels were changed into categorical datatype by engineering dummy variables. The other categorical variables which had numerical values were simply converted into categorical datatype without producing dummy variables.
 o Att18, att25 and att28 are all skewed to the right. Thus, a log transformation was applied.
